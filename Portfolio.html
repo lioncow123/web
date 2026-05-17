@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ryan Kaw — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="top" id="topHeader">
+  <div class="container row">
+    <div class="brand">Ryan Kaw Zheng Da</div>
+    <nav>
+      <a href="#about" data-link="about">About</a>
+      <a href="#work" data-link="work">Work</a>
+      <a href="#capabilities" data-link="capabilities">Stack</a>
+      <a href="#archive" data-link="archive">Archive</a>
+      <a href="#education" data-link="education">Education</a>
+      <a href="#contact" data-link="contact">Contact</a>
+    </nav>
+    <button id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <path d="M2 4h12M2 8h12M2 12h12"/>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<div id="nav-mobile" hidden>
+  <button class="nav-close" id="nav-close" aria-label="Close menu">✕</button>
+  <a href="#about" data-link="about">About</a>
+  <a href="#work" data-link="work">Work</a>
+  <a href="#capabilities" data-link="capabilities">Stack</a>
+  <a href="#archive" data-link="archive">Archive</a>
+  <a href="#education" data-link="education">Education</a>
+  <a href="#contact" data-link="contact">Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="grid-bg"></div>
+  <div class="container">
+    <!-- <span class="hero-name mono-up" style="font-size:12px">HI, I'M RYAN KAW!</span> -->
+    <h1>
+      <span class="word"><span>Solving</span></span>
+      <span class="word"><span>messy</span></span>
+      <span class="word"><span>problems</span></span>
+      <span class="word"><span>with</span></span>
+      <span class="word"><span class="accent">structured</span></span>
+      <span class="word"><span>systems.</span></span>
+    </h1>
+    <p class="hero-sub">
+      Hey, I’m Ryan! I work on large-scale public-sector digital platforms at Accenture Singapore, translating operational complexity into scalable systems.
+    </p>
+    <div class="hero-meta">
+      <div class="cell">
+        <span class="mono-up k">Role</span>
+        <span class="v">Product · Delivery · BA</span>
+      </div>
+      <div class="cell">
+        <span class="mono-up k">Located</span>
+        <span class="v">Singapore, GMT+8</span>
+      </div>
+      <div class="cell">
+        <span class="mono-up k">Experience</span>
+        <span class="v">Public-sector platforms</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="left">
+        <span class="mono-up">[ 01 ] About</span>
+        <h2 class="title" style="max-width:346px;line-height:1.15">Ryan Kaw Zheng Da</h2>
+      </div>
+    </div>
+    <div class="about-grid">
+      <div class="photo-card reveal">
+        <div class="photo"><img src="assets/ryan.png" alt="Ryan Kaw"></div>
+      </div>
+      <div class="about-body reveal">
+        <p class="lead">I'm a product delivery analyst at Accenture Singapore, working on large-scale digital platforms.</p>
+        <p style="color:var(--muted)">Most of my time goes into the work between product, engineering, and operations &mdash; taking problems that arrive loosely defined, scoping them into something engineering can size, and seeing them through to release.</p>
+        <p style="color:var(--muted)">Workshops, specs, integration design, sizing estimates, stakeholder coordination across onshore and offshore teams.</p>
+        <p style="color:var(--muted)">Lately, I have also been actively integrating generative AI into my day-to-day workflows to improve analysis, documentation turnaround, solutioning, and delivery efficiency.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SELECTED WORK -->
+<section id="work">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="left">
+        <span class="mono-up">[ 02 ] Selected Work</span>
+        <h2 class="title">Recent work.</h2>
+      </div>
+    </div>
+
+    <div class="work-list" id="workList">
+
+      <div class="work-item">
+        <div class="work-row">
+          <span class="num">/01</span>
+          <span class="title">Change request portfolio &mdash; public-service platform</span>
+          <span class="year">Jul 2024 — present</span>
+          <span class="chev" aria-hidden="true">
+            <svg viewBox="0 0 12 12" fill="none"><path d="M6 1V11M1 6H11" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          </span>
+        </div>
+        <div class="work-body">
+          <div>
+            <div class="work-body-inner">
+              <div>
+                <p class="lead">A large-scale public-sector digital platform shaped by years of continuous delivery and enterprise-scale change requests.</p>
+                <p class="lead muted">My role sat between product, business, and engineering, leading end-to-end requirements, solution design and delivery for eight user-facing change requests across both agile and waterfall delivery tracks.</p>
+                <p class="lead muted">Stakeholder workshops, impact assessments, integration design (REST contracts, schemas, data mappings), frontend behaviour design, mockups, specification writing, cross-team delivery coordination across onshore and offshore developers.</p>
+              </div>
+              <div class="work-meta">
+                <div class="meta-block">
+                  <div class="k">Role</div>
+                  <div class="v">Business Architecture Analyst → Senior Analyst, Accenture</div>
+                </div>
+                <div class="meta-block">
+                  <div class="k">Stack</div>
+                  <div class="meta-tags">
+                    <span>Java</span><span>REST</span><span>SQL</span><span>Figma</span><span>Jira</span><span>Confluence</span>
+                  </div>
+                </div>
+                <div class="figures">
+                  <div class="fig">
+                    <div class="n"><span class="accent">~3,000</span></div>
+                    <div class="l">Engineering days of delivery effort shipped collectively across eight CRs.</div>
+                  </div>
+                  <div class="fig">
+                    <div class="n"><span class="accent">&lt;5%</span></div>
+                    <div class="l">Design-related defect leakage across the releases.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-item">
+        <div class="work-row">
+          <span class="num">/02</span>
+          <span class="title">Data migration &mdash; Case Management System Overhaul</span>
+          <span class="year">Feb 2023 — May 2024</span>
+          <span class="chev" aria-hidden="true">
+            <svg viewBox="0 0 12 12" fill="none"><path d="M6 1V11M1 6H11" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          </span>
+        </div>
+        <div class="work-body">
+          <div>
+            <div class="work-body-inner">
+              <div>
+                <p class="lead">During a case management system migration, I built and optimised the data migration pipelines on AWS Glue and Lambda.</p>
+                <p class="lead muted">Beyond the technical implementation, I worked closely with both client and internal teams to surface requirement gaps early &mdash; before they could evolve into high-severity production defects.</p>
+              </div>
+              <div class="work-meta">
+                <div class="meta-block">
+                  <div class="k">Role</div>
+                  <div class="v">Business Analyst Intern, Accenture</div>
+                </div>
+                <div class="meta-block">
+                  <div class="k">Stack</div>
+                  <div class="meta-tags">
+                    <span>AWS Glue</span><span>AWS Lambda</span><span>Python</span>
+                  </div>
+                </div>
+                <div class="figures">
+                  <div class="fig">
+                    <div class="n"><span class="accent">&gt;50%</span></div>
+                    <div class="l">Reduction in ETL processing time via pipeline optimisation and schema refinement.</div>
+                  </div>
+                  <div class="fig">
+                    <div class="n"><span class="accent">~½</span></div>
+                    <div class="l">Of identified requirement gaps resolved through early-stage alignment.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-item">
+        <div class="work-row">
+          <span class="num">/03</span>
+          <span class="title">Change Management for a WhatsApp Chatbot Rollout</span>
+          <span class="year">Feb 2026 — Apr 2026</span>
+          <span class="chev" aria-hidden="true">
+            <svg viewBox="0 0 12 12" fill="none"><path d="M6 1V11M1 6H11" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          </span>
+        </div>
+        <div class="work-body">
+          <div>
+            <div class="work-body-inner">
+              <div>
+                <p class="lead">A separate public-service platform was rolling out a new feature &mdash; a WhatsApp chatbot &mdash; into an existing operations setup.</p>
+                <p class="lead muted">New features have to be lived with by the people who already do the work, and the gap between &ldquo;deployed&rdquo; and &ldquo;actually adopted&rdquo; is mostly a change-management problem.</p>
+                <p class="lead muted">My role was the change-management half of the rollout: working with the client's operational teams on what the new feature meant for their day-to-day, and authoring the SOPs they'd use to run with it.</p>
+              </div>
+              <div class="work-meta">
+                <div class="meta-block">
+                  <div class="k">Role</div>
+                  <div class="v">Business Architecture Senior Analyst, Accenture</div>
+                </div>
+                <div class="meta-block">
+                  <div class="k">Scope</div>
+                  <div class="meta-tags">
+                    <span>Tone &amp; voice</span><span>Doc standards</span><span>Working SOPs</span><span>Management SOPs</span><span>Sub-team training</span>
+                  </div>
+                </div>
+                <div class="meta-block">
+                  <div class="k">Outcome</div>
+                  <div class="v">New chat-channel sub-team trained and live, adapted SOPs in production across operational shifts.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- STACK -->
+<section id="capabilities">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="left">
+        <span class="mono-up">[ 03 ] Stack</span>
+        <h2 class="title">Stack and toolkit.</h2>
+      </div>
+    </div>
+
+    <div class="cap-cols reveal">
+      <div class="cap-card">
+        <span class="mono-up">A — Practice</span>
+        <h3>Product delivery</h3>
+        <p>Requirements workshops, BRD and functional spec writing, system design across schemas, REST contracts, data mappings and integration flows. UAT planning, sizing and estimation, stakeholder coordination, change management on operational rollouts.</p>
+        <ul>
+          <li>Workshops</li><li>BRD / FSD</li><li>REST contracts</li><li>Data mappings</li>
+          <li>UAT</li><li>Sizing</li><li>SOPs</li><li>Change management</li>
+        </ul>
+      </div>
+      <div class="cap-card">
+        <span class="mono-up">B — Building</span>
+        <h3>Engineering &amp; tooling</h3>
+        <p>I write enough code to ship pipelines, test suites, and small tools end-to-end &mdash; and to keep the spec honest with the implementation.</p>
+        <ul>
+          <li>Python</li><li>Java</li><li>SQL</li><li>AWS Glue</li>
+          <li>AWS Lambda</li><li>Selenium</li><li>Figma</li><li>Generative AI</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ARCHIVE -->
+<section id="archive">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="left">
+        <span class="mono-up">[ 04 ] Archive</span>
+        <h2 class="title">Earlier work, 2022 &rarr; 2024.</h2>
+      </div>
+    </div>
+
+    <div class="archive-list reveal" id="archiveList">
+      <div class="archive-row">
+        <span class="year">2023 — 24</span>
+        <span class="title">PixelGuard &mdash; deepfake detection for document screening</span>
+        <span class="role">Project Manager · SUTD × HTX Capstone</span>
+        <span class="ext">Expand</span>
+        <div class="archive-desc"><div>
+          <p>A capstone with HTX &mdash; Singapore's Home Team Science and Technology Agency &mdash; to build a platform that detects altered and deepfaked documents for screening workflows tied to national security. I ran the project as PM: scoping the use case with HTX, planning sprints, defining GTM testing protocols, and getting the team from concept through MVP to launch. Detection accuracy came in 3% above baseline, and the platform cleared GTM with no defects logged at sign-off.</p>
+        </div></div>
+      </div>
+      <div class="archive-row">
+        <span class="year">2022</span>
+        <span class="title">Sales analytics &amp; forecasting &mdash; TSH Synergy</span>
+        <span class="role">Project lead · SUTD × TSH Synergy</span>
+        <span class="ext">Expand</span>
+        <div class="archive-desc"><div>
+          <p>Led a four-person team to analyse TSH Synergy's sales data and build a Power BI dashboard for their sales team, surfacing insights for business development. I also wrote a time-series forecasting model in R to support inventory and supply-chain decisions.</p>
+        </div></div>
+      </div>
+      <div class="archive-row">
+        <span class="year">2022</span>
+        <span class="title">Port operations optimisation</span>
+        <span class="role">Course project · University of Twente</span>
+        <span class="ext">Expand</span>
+        <div class="archive-desc"><div>
+          <p>Evaluated investment options for a port's operational efficiency using Siemens Plant Simulation. I developed and implemented a routing algorithm to improve throughput, evaluating key drivers &mdash; quay capacity, arrivals per hour &mdash; and validating outcomes with statistical analysis.</p>
+        </div></div>
+      </div>
+      <div class="archive-row">
+        <span class="year">2022</span>
+        <span class="title">Operations Management educational game</span>
+        <span class="role">Systems Designer · SUTD</span>
+        <span class="ext">Expand</span>
+        <div class="archive-desc"><div>
+          <p>A line-balancing game built in R Shiny with a SQL backend, designed to teach operations management concepts to engineering students. I led the journey-mapping, use-case analysis, and logical architecture; the game shipped bug-free at full scope.</p>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="left">
+        <span class="mono-up">[ 05 ] Education</span>
+        <h2 class="title">Education.</h2>
+      </div>
+    </div>
+
+    <div class="edu-list reveal">
+      <div class="edu-row">
+        <span class="year">2020 — 2024</span>
+        <span class="school">Singapore University of Technology and Design</span>
+        <span class="programme">B.Eng. (Hons), Engineering Systems &amp; Design</span>
+        <span class="note">Honours with Distinction</span>
+      </div>
+      <div class="edu-row">
+        <span class="year">2022 — 2023</span>
+        <span class="school">University of Twente</span>
+        <span class="programme">Computer Science &mdash; Global Exchange Programme</span>
+        <span class="note"></span>
+      </div>
+      <div class="edu-row">
+        <span class="year">2016 — 2017</span>
+        <span class="school">Yishun Junior College</span>
+        <span class="programme">GCE A-Levels</span>
+        <span class="note"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-wrap reveal">
+      <span class="mono-up kicker">[ 06 ] Contact</span>
+      <h2>Get in touch.</h2>
+      <div class="contact-meta">
+        <div>
+          <span class="mono-up k">Email</span>
+          <span class="v"><a href="mailto:ryankaw123@gmail.com">ryankaw123@gmail.com</a></span>
+        </div>
+        <div>
+          <span class="mono-up k">LinkedIn</span>
+          <span class="v"><a href="https://www.linkedin.com/in/ryankaw/" target="_blank" rel="noopener">linkedin.com/in/ryankaw ↗</a></span>
+        </div>
+        <div>
+          <span class="mono-up k">Based</span>
+          <span class="v">Singapore · GMT+8</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container row">
+    <p class="mono">© Ryan Kaw, 2026</p>
+    <p class="mono center">Built with Claude Design</p>
+    <p class="mono right">Last updated May 2026</p>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
